@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <section class="menu-section"> 
+        <div class="menu-container"> 
+            <div class="menu-header"> 
+                <h1>Our Food Menu</h1> 
+                <a href="index.html">← Back to Home</a> 
+            </div>
+
+
+<div class="menu-grid">
+
+<div class="menu-card">
+<img src="img/food/burger.jpg" class="menu-image">
+<div class="menu-info">
+<h3 class="menu-name">Classic American Burger</h3>
+<p class="menu-price">₹120</p>
+<button class="primary-btn" onclick="addToCart('Classic American Burger',120)">Add to Cart</button>
+</div>
+</div>
+
+
+<div class="menu-card">
+<img src="img/food/tacos.webp" class="menu-image">
+<div class="menu-info">
+<h3 class="menu-name">Veg Mexican Tacos</h3>
+<p class="menu-price">₹179</p>
+<button class="primary-btn" onclick="addToCart('Veg Mexican Tacos',179)">Add to Cart</button>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="img/food/fries.jpg" class="menu-image">
+<div class="menu-info">
+<h3 class="menu-name">Peri Peri Fries</h3>
+<p class="menu-price">₹160</p>
+<button class="primary-btn" onclick="addToCart('Peri Peri Fries',160)">Add to Cart</button>
+</div>
+</div>
+
+
+<div class="menu-card">
+<img src="img/food/sandwich.jpg" class="menu-image">
+<div class="menu-info">
+<h3 class="menu-name">Cheese Melt Supreme Sandwich</h3>
+<p class="menu-price">₹149</p>
+<button class="primary-btn" onclick="addToCart('Cheese Melt Supreme Sandwich',149)">Add to Cart</button>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="img/food/whitepasta.jpg" class="menu-image">
+<div class="menu-info">
+<h3 class="menu-name">White Sauce Pasta</h3>
+<p class="menu-price">₹189</p>
+<button class="primary-btn" onclick="addToCart('White Sauce Pasta',189)">Add to Cart</button>
+</div>
+</div>
+
+
+<div class="menu-card">
+<img src="img/food/pizzaa.jpg" class="menu-image">
+<div class="menu-info">
+<h3 class="menu-name">Margherita Pizza</h3>
+<p class="menu-price">₹249</p>
+<button class="primary-btn" onclick="addToCart('Margherita Pizza',249)">Add to Cart</button>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="img/food/sushi.jpg" class="menu-image">
+<div class="menu-info">
+<h3 class="menu-name">Sushi Rolls</h3>
+<p class="menu-price">₹299</p>
+<button class="primary-btn" onclick="addToCart('Sushi Rolls',299)">Add to Cart</button>
+</div>
+</div>
+
+
+<div class="menu-card">
+<img src="img/food/tteokbokki.jpg" class="menu-image">
+<div class="menu-info">
+<h3 class="menu-name">Tteokbokki</h3>
+<p class="menu-price">₹199</p>
+<button class="primary-btn" onclick="addToCart('Tteokbokki',199)">Add to Cart</button>
+</div>
+</div>
+
+
+<div class="menu-card">
+<img src="img/food/kramen.jpg" class="menu-image">
+<div class="menu-info">
+<h3 class="menu-name">Korean Ramen Noodles Bowl</h3>
+<p class="menu-price">₹280</p>
+<button class="primary-btn" onclick="addToCart('Korean Ramen Noodles Bowl',280)">Add to Cart</button>
+</div>
+</div>
+
+<div class="menu-card">
+<img src="img/food/Burrito-Bowl.jpg" class="menu-image">
+<div class="menu-info">
+<h3 class="menu-name">Mexican Burrito Bowl</h3>
+<p class="menu-price">₹320</p>
+<button class="primary-btn" onclick="addToCart('Mexican Burrito Bowl',320)">Add to Cart</button>
+</div>
+</div>
+
+
+
+<div id="cart" class="hide-cart">
+<h2>Your Cart</h2>
+<ul id="cart-items"></ul>
+<div class="cart-footer">
+<h3>Total: ₹<span id="total">0</span></h3>
+<button class="checkout-btn">Checkout</button>
+<button class="close-btn" onclick="closeCart()">Close</button>
+</div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
